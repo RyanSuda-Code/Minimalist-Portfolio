@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Grid+Single:wght@1..9&family=Handlee&family=Ibarra+Real+Nova:ital,wght@ 4..7&family=Momo+Signature&family=Noto+Sans+JP:wght@ 1..9&family=Outfit:wght@ 1..9&family=Public+Sans:ital,wght@ 1..9&family=Red+Hat+Display:ital,wght@ 3..9&family=Roboto:ital,wght@ 1..9&family=Yesteryear&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'ibarra real nova', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+    color: #33323d;
+}
+
+h2 {
+    font-family: 'ibarra real nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    color: #33323d;
+}
+
+h3 {
+    font-family: 'ibarra real nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+    color: #33323d;
+}
+
+body {
+    font-family: 'public sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323d;
+}
+
+body.mobile {  
+    font-size: 15px;
+}
+
+/*Buttons*/
