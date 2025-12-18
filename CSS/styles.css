@@ -40,8 +40,96 @@ body {
     color: #33323d;
 }
 
-body.mobile {  
-    font-size: 15px;
+/*mobile font*/
+@media (max-width: 767px) {
+    body {  
+        font-size: 15px;
+    }
 }
 
+
 /*Buttons*/
+/*about me button*/
+.abt-btn {
+    width: 200px;
+    height: 48px;
+    background-color: #203a4c;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font: 'public sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    width: 48px;
+    height: 48px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    background-color: #1b2f3f;
+}
+
+.abt-btn:hover {
+    background-color: #5FB4A2;
+}
+
+.abt-btn:hover .arrow-icon{  
+    background-color: #428374;
+}/*:hover only affects the element it’s applied to, so child elements won’t change together unless they’re targeted through the parent. Using .parent:hover .child lets all parts respond at once, keeping hover styles consistent.*/
+
+/*portfolio button*/
+.port-btn {
+    width: 202px;
+    height: 48px;
+    background-color: #fff;
+    font: 'public sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.port-btn:hover {
+    background-color: #33323d;
+    color: white;
+}
+
+/*contact me button*/
+.cnt-btn {
+    width: 162px;
+    height: 48px;
+    background-color: #fff;
+    font: 'public sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cnt-btn:hover {
+    background-color: #33323d;
+    color: white;
+}
+
+/*project button*/
+.project-btn {
+    width: 175px;
+    height: 48px;
+    background-color: #fff;
+    font: 'public sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.project-btn:hover {
+    background-color: #33323d;
+    color: white;
+}
