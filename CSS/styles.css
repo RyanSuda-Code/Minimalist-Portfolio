@@ -133,3 +133,33 @@ body {
     background-color: #33323d;
     color: white;
 }
+
+/*visit website button*/
+.visit-btn {
+    width: 178px;
+    height: 48px;
+    background-color: #fff;
+    font: 'public sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.visit-btn:hover {
+    background-color: #33323d;
+    color: white;
+}
+
+/*send message button*/
+.send-btn {
+    width: 200px;
+    height: 48px;
+    background-color: #203a4c;
+    color: #fff;
+    text-transform: uppercase;
+    font: 'public sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
