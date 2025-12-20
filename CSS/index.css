@@ -1,0 +1,12 @@
+header {
+    width: 85%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    max-width: 1110px;
+    width: 100%;
+    background: url(./images/homepage/desktop/image-homepage-hero.jpg);
+}
