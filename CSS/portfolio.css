@@ -1,0 +1,11 @@
+.portfolio-container {
+    width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div section {
+    width: 350px;
+}

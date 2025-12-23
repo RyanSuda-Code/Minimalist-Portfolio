@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./CSS/styles.css">
-  <link rel="stylesheet" href=""> <!-- Add Main Portfolio CSS File Here -->
-
+  <link rel="stylesheet" href="./CSS/portfolio.css"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | My Projects</title>
@@ -13,51 +12,100 @@
 <body>
   <header>
       <img src="./images/logo.svg" alt="Logo">
-      <nav>
+      <nav><!--Update links later on-->
         <a href="#">Home</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact Me</a>
       </nav>
     </header>
-  <main>
 
+  <main>
+    <div class="portfolio-container">
+      <div class="manage-container">
+
+        <section class="manage-section">
+          <h2>Manage</h2>
+          <p>
+            This project required me to build a fully responsive landing page to the designs provided. 
+            I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
+            such as the testimonial slider.
+          </p>
+          <button class="project-btn">View Project</button>
+        </section>
+        
+      </div>
+        
+      <div class="bookmark-container">
+
+        <section class="bookmark-section">
+          <h2>Bookmark</h2>
+          <p>
+            This project required me to build a fully responsive landing page to the designs provided. I 
+            used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
+            as the features section.
+          </p>
+          <button class="project-btn">View Project</button>
+        </section>
+        
+      </div>
+
+      <div class="insure-container">
+
+        <section class="insure-section">
+          <h2>Insure</h2>
+          <p>
+            This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive 
+            landing page. The only JavaScript this project required was to enable the toggling of the 
+            mobile navigation.
+          </p>
+          <button class="project-btn">View Project</button>
+        </section>
+        
+      </div>
+        
+      <div class="fylo-container">
+
+        <section class="fylo-section">
+          <h2>Fylo</h2>
+          <p>
+            This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
+            built it so that it was fully-responsive. I took a mobile-first approach and used modern 
+            CSS like Flexbox and Grid for layout purposes.
+          </p>
+          <button class="project-btn">View Project</button>
+        </section>
+        
+      </div>
+
+      <div class="contact-container">
+        <div>
+          <h2>Interested in doing a project together?</h2>
+        </div>
+        
+        <button class="cnt-btn">Contact Me</button>
+      </div>
+    </div>
   </main>
 
-  Manage
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <img src="./images/logo.svg" alt="Logo" class="footer-img">
+        <nav>  <!--Update links later on-->
+          <a href="#">Home</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact Me</a>
+        </nav>
+      </div>
 
-  This project required me to build a fully responsive landing page to the designs provided. 
-  I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
-  such as the testimonial slider.
-
-  <button class="project-btn">View Project</button>
-
-  Bookmark
-
-  This project required me to build a fully responsive landing page to the designs provided. I 
-  used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
-  as the features section.
-
-  <button class="project-btn">View Project</button>
-
-  Insure
-
-  This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive 
-  landing page. The only JavaScript this project required was to enable the toggling of the 
-  mobile navigation.
-
-  <button class="project-btn">View Project</button>
-
-  Fylo
-
-  This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
-  built it so that it was fully-responsive. I took a mobile-first approach and used modern 
-  CSS like Flexbox and Grid for layout purposes.
-
-  <button class="project-btn">View Project</button>
-
-  Interested in doing a project together?
-
-  <button class="cnt-btn">Contact Me</button>
+      <div class="social-container">
+        <img src="./images/icons/github.svg" alt="GitHub Icon" class="social-img">
+        <img src="./images/icons/twitter.svg" alt="Twitter Icon" class="social-img">
+        <img src="./images/icons/linkedin.svg" alt="LinkedIn Icon" class="social-img">
+      </div>
+    </div>
+    
+  </footer>
 
 </body>
 </html>

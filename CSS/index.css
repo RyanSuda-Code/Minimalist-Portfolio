@@ -34,19 +34,3 @@
     gap: 125px;
     margin: 50px 0;
 }
-
-.contact-container {
-    width: 1110px;
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
-}
-
-.contact-container h2 {
-    width: 350px;
-    height: 84px;
-}
-
-.cnt-btn {
-    margin: auto 0;
-}
