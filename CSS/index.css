@@ -41,8 +41,18 @@
     gap: 125px;
 }
 
-.abt-section h2, .abt-section p {
-    margin: 30px 0;
+.abt-section {
+    width: 350px;
+    height: 600px;
+    border-top: 1px solid #33323d;
+    border-bottom: 1px solid #33323d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abt-section p {
+    margin: 40px 0;
 }
 
 

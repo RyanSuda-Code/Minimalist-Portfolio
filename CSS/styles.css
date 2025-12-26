@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Grid+Single:wght@1..9&family=Handlee&family=Ibarra+Real+Nova:ital,wght@ 4..7&family=Momo+Signature&family=Noto+Sans+JP:wght@ 1..9&family=Outfit:wght@ 1..9&family=Public+Sans:ital,wght@ 1..9&family=Red+Hat+Display:ital,wght@ 3..9&family=Roboto:ital,wght@ 1..9&family=Yesteryear&display=swap");
 
 * {
-    outline: solid red 1px;
+    
     margin: 0;
     padding: 0;
 }
@@ -84,6 +84,37 @@ main {
     flex-direction: column;
 }
 
+.page-nav {
+    width: 1110px;
+    height: 132px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #33323d;
+    border-bottom: 1px solid #33323d;
+}
+
+.page-btn {
+    display: flex;
+    width: 162px;
+    height: 132px;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+}
+
+.arrow {
+    width: 8px;
+    height: 16px;
+    margin: 0 10px;
+}
+
+.center-line {
+    width: 1px;
+    background-color: #33323d;
+    height: 100%;
+}
+
 .contact-container {
     width: 1110px;
     display: flex;
@@ -138,7 +169,10 @@ footer {
     filter: brightness(0) invert(1);/*This turn darks svg to white*/
 }
 
-
+a {
+    text-decoration: none;
+    color: #33323d;
+}
 
 /*Buttons*/
 /*about me button*/

@@ -13,8 +13,12 @@
 
 .manage-container {
     width: 350px;
+    height: 498px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    border-top: 1px solid #33323d;
+    border-bottom: 1px solid #33323d;
 }
 
 .content p, span, .visit-btn {
@@ -39,23 +43,3 @@ span {
     margin: 20px 0;
 }
 
-.page-nav {
-    width: 1110px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.page-btn {
-    display: flex;
-    width: 162px;
-    height: 66px;
-    display: flex;
-    align-items: center;
-}
-
-.arrow {
-    width: 8px;
-    height: 16px;
-    margin: 0 10px;
-}
