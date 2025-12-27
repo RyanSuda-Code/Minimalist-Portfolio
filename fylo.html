@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./CSS/styles.css">
-  <link rel="stylesheet" href=""> <!-- Add Fylo Page CSS File Here -->
+  <link rel="stylesheet" href="./CSS/fylo.css"> <!-- Add Fylo Page CSS File Here -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -14,57 +14,93 @@
   <header>
     <img src="./images/logo.svg" alt="Logo">
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact Me</a>
+      <a href="./index.html">Home</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./contact.html">Contact Me</a>
     </nav>
   </header>
 
   <main>
-    Fylo
+    <img src="./images/detail/desktop/image-fylo-hero@2x.jpg" alt="preview image of fylo" class="fylo-img">
 
-    This project was built in pure HTML and CSS. I had mobile and desktop designs to 
-    work to and built it so that it was fully-responsive. I took a mobile-first approach 
-    and used modern CSS like Flexbox and Grid for layout purposes.
+    <div class="content">
+      <div class="fylo-container">
+        <h2>Fylo</h2>
 
-    Interaction Design / Front End Development
+        <p>This project was built in pure HTML and CSS. I had mobile and desktop designs to 
+        work to and built it so that it was fully-responsive. I took a mobile-first approach 
+        and used modern CSS like Flexbox and Grid for layout purposes.</p>
 
-    HTML / CSS
+        <span>Interaction Design / Front End Development</span>
 
-    <button class="visit-btn">Visit Website</button>
+        <span>HTML / CSS</span>
 
-    Project Background
+        <button class="visit-btn">Visit Website</button>
+      </div>
+      
+      <div class="background-container">
+        <h3>Project Background</h3>
 
-    This project was a front-end  challenge from Frontend Mentor. It’s a platform that 
-    enables you to practice building websites to a design and project brief. Each challenge 
-    includes mobile and desktop designs to show how the website should look at different 
-    screen sizes. Creating these projects has helped me refine my workflow and solve 
-    real-world coding problems. I’ve learned something new with each project, helping 
-    me to improve and adapt my style.
+        <p>This project was a front-end  challenge from Frontend Mentor. It’s a platform that 
+        enables you to practice building websites to a design and project brief. Each challenge 
+        includes mobile and desktop designs to show how the website should look at different 
+        screen sizes. Creating these projects has helped me refine my workflow and solve 
+        real-world coding problems. I’ve learned something new with each project, helping 
+        me to improve and adapt my style.</p>
 
-    Static Previews
+        <h3>Static Previews</h3>
+        <img src="./images/detail/desktop/image-fylo-preview-1@2x.jpg" class="preview-img">
+        <img src="./images/detail/desktop/image-fylo-preview-2@2x.jpg" class="preview-img">
+      </div>
+    </div>
 
-    Insure
-    Previous Project
+    <div class="page-nav">
+      <a href="./insure.html"><div class="page-btn">
+        <img src="./images/icons/arrow-left.svg" alt="left arrow" class="arrow">
+        <section class="nav-section">
+          <h3>Insure</h3>
+          <p>Previous Project</p>
+        </section>
+      </div></a>
 
-    Manage
-    Next Project
+      <div class="center-line"></div>
+        
+      <a href="./manage.html"><div class="page-btn">
+        <section class="nav-section">
+          <h3>Manage</h3>
+          <p>Next Project</p>
+        </section>
+        <img src="./images/icons/arrow-right.svg" alt="right arrow" class="arrow">
+      </div></a>
+        
+    </div>
+      
+    <div class="contact-container">
+      <div>
+        <h2>Interested in doing a project together?</h2>
+      </div>
+          
+      <a href="./contact.html"><button class="cnt-btn">Contact Me</button></a>
+    </div>
+    
   </main>
 
   <footer>
-    <h2>Interested in doing a project together?</h2>
+    <div class="footer-container">
+      <div class="footer-links">
+        <img src="./images/logo.svg" alt="Logo" class="footer-img">
+        <nav>  
+          <a href="./index.html">Home</a>
+          <a href="./portfolio.html">Portfolio</a>
+          <a href="./contact.html">Contact Me</a>
+        </nav>
+      </div>
 
-    <button class="cnt-btn">Contact Me</button>
-    <div>
-      <img src="./images/logo.svg" alt="Logo">
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact Me</a>
-      </nav>
-      <img src="./images/icons/github.svg" alt="GitHub Icon">
-      <img src="./images/icons/twitter.svg" alt="Twitter Icon">
-      <img src="./images/icons/linkedin.svg" alt="LinkedIn Icon">
+      <div class="social-container">
+        <a href="https://github.com/"><img src="./images/icons/github.svg" alt="GitHub Icon" class="social-img"></a>
+        <a href="https://x.com/home"><img src="./images/icons/twitter.svg" alt="Twitter Icon" class="social-img"></a>
+        <a href="https://www.linkedin.com/"><img src="./images/icons/linkedin.svg" alt="LinkedIn Icon" class="social-img"></a>
+      </div>
     </div>
   </footer>
 
