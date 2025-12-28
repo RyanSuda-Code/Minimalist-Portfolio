@@ -20,40 +20,67 @@
   </header>
 
   <main>
-    Get in Touch
+    <div class="contact">
+      <div class="title">
+        <h2>Get in Touch</h2>
+      </div>
+      
+      <div class="content">
+        <p>I’d love to hear about what you’re working on and how I could help. I’m currently 
+        looking for a new role and am open to a wide range of opportunities. My preference 
+        would be to find a position in a company in London. But I’m also happy to hear about 
+        opportunites that don’t fit that description. I’m a hard-working and positive person 
+        who will always approach each task with a sense of purpose and attention to detail. 
+        Please do feel free to check out my online profiles below and get in touch using the form.<p>
 
-    I’d love to hear about what you’re working on and how I could help. I’m currently 
-    looking for a new role and am open to a wide range of opportunities. My preference 
-    would be to find a position in a company in London. But I’m also happy to hear about 
-    opportunites that don’t fit that description. I’m a hard-working and positive person 
-    who will always approach each task with a sense of purpose and attention to detail. 
-    Please do feel free to check out my online profiles below and get in touch using the form.
+        <div class="socials">
+          <a href="https://github.com/"><img src="./images/icons/github.svg" alt="GitHub Icon" class="socials"></a>
+          <a href="https://x.com/home"><img src="./images/icons/twitter.svg" alt="Twitter Icon" class="socials"></a>
+          <a href="https://www.linkedin.com/"><img src="./images/icons/linkedin.svg" alt="LinkedIn Icon" class="socials"></a>
+        </div>
+      </div>
+      
+    </div>
 
-    Contact Me
+    <div class="contact-form">
+      <div class="form-title">
+        <h2>Contact Me</h2>
+      </div>
 
-    Name
-    Jane Appleseed
+      <div class="form-container">
+        <fieldset>
+          <label for="name">Name</label>
+          <input required type="text" id="name" name="name" placeholder="Jane Appleseed" pattern="[A-Za-z\s]+">
+          <label for="email">Email Address</label>
+          <input required type="email" id="email" name="email" placeholder="email@example.com">
+          <label for="message">Message</label>
+          <textarea type="text" id="message" name="message" placeholder="How can I help?"></textarea>
+        </fieldset>
+        <button type="submit" class="send-btn">Send Message</button>
+      </div>
+      
+    </div>
+    
 
-    Email Address
-    email@example.com
-
-    Message
-    How can I help?
-
-    <button class="send-btn">Send Message</button>
+    
   </main>
 
   <footer>
-    <div>
-      <img src="./images/logo.svg" alt="Logo">
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact Me</a>
-      </nav>
-      <img src="./images/icons/github.svg" alt="GitHub Icon">
-      <img src="./images/icons/twitter.svg" alt="Twitter Icon">
-      <img src="./images/icons/linkedin.svg" alt="LinkedIn Icon">
+    <div class="footer-container">
+      <div class="footer-links">
+        <img src="./images/logo.svg" alt="Logo" class="footer-img">
+        <nav>  
+          <a href="./index.html">Home</a>
+          <a href="./portfolio.html">Portfolio</a>
+          <a href="./contact.html">Contact Me</a>
+        </nav>
+      </div>
+
+      <div class="social-container">
+        <a href="https://github.com/"><img src="./images/icons/github.svg" alt="GitHub Icon" class="social-img"></a>
+        <a href="https://x.com/home"><img src="./images/icons/twitter.svg" alt="Twitter Icon" class="social-img"></a>
+        <a href="https://www.linkedin.com/"><img src="./images/icons/linkedin.svg" alt="LinkedIn Icon" class="social-img"></a>
+      </div>
     </div>
   </footer>
   

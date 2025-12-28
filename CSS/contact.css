@@ -1,0 +1,83 @@
+.contact {
+    width: 1110px;
+    height: 356px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #33323d;
+    border-bottom: 1px solid #33323d;
+    margin: 40px 0;
+}
+
+.title {
+    width: 350px;
+    margin-top: 60px; 
+}
+
+.content {
+    width: 635px;
+    margin: auto 0;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.contact-form {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-title {
+    width: 350px; 
+}
+
+fieldset {
+    width: 635px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+input {
+    height: 48px;
+    background-color: #eaeaeb;
+    margin-bottom: 30px;
+    border: 1px solid #eaeaeb;
+}
+
+input:focus {
+    border-color: #5fb4a2;
+    outline: none;
+}
+
+input:placeholder-shown {
+    border: 1px solid #eaeaeb;
+}/* Optional: Reset to a normal color when empty/placeholder is showing */
+
+input:user-valid {/* Optional: style valid input only after interaction too */
+    border-color: #5fb4a2;
+}
+
+input:not(:placeholder-shown):invalid { /* Only turn red if it's both invalid AND has text inside it */
+  border-color: red;
+}
+
+textarea {    
+    height: 96px;
+    background-color: #eaeaeb;
+    margin-bottom: 30px;
+    border: 1px solid #eaeaeb;
+}
+
+textarea:focus {
+    border-color: #5fb4a2;
+    outline: none;
+}
+
+label {
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
