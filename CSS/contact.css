@@ -53,7 +53,7 @@ input:focus {
 
 input:placeholder-shown {
     border: 1px solid #eaeaeb;
-}/* Optional: Reset to a normal color when empty/placeholder is showing */
+}
 
 input:user-valid {/* Optional: style valid input only after interaction too */
     border-color: #5fb4a2;

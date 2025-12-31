@@ -11,12 +11,12 @@
 </head>
 <body>
   <header>
-      <img src="./images/logo.svg" alt="Logo">
-      <nav> 
-        <a href="./index.html">Home</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./contact.html">Contact Me</a>
-      </nav>
+    <img src="./images/logo.svg" alt="Logo">
+    <nav> 
+      <a href="./index.html">Home</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./contact.html">Contact Me</a>
+    </nav>
   </header>
   <main>
     <div class="hero-container">
@@ -31,7 +31,11 @@
 
     <div id="about">
       <div class="about-container">
-        <img src="./images/homepage/desktop/image-homepage-profile.jpg" alt="Side view profile image of a man" class="abt-image">
+        <picture>
+          <source media="(max-width: 767px)" src="./images/homepage/mobile/image-homepage-profile@2x.jpg">
+          <source media="(max-witdth: 1024px)" srcset="images/homepage/tablet/image-homepage-profile@2x.jpg">
+          <img src="./images/homepage/desktop/image-homepage-profile.jpg" alt="Side view profile image of a man" class="abt-image">
+        </picture>
         <section class="abt-section">
           <h2>About Me</h2>
           <p>I’m a junior front-end developer looking for a new role in an exciting company. 
