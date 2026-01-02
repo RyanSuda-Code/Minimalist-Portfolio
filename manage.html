@@ -39,7 +39,11 @@
   </nav>
 
   <main>
-    <img src="./images/detail/desktop/image-manage-hero@2x.jpg" alt="preview image of the manage website" class="manage-img">
+    <picture>
+      <source media="(max-width: 767px)" srcset="./images/detail/mobile/image-manage-hero@2x.jpg">
+      <source media="(max-width: 1024px)" srcset="./images/detail/tablet/image-insure-hero@2x.jpg">
+      <img src="./images/detail/desktop/image-manage-hero@2x.jpg" alt="preview image of the manage website" class="manage-img">
+    </picture>
 
     <div class="content">
       <div class="manage-container">
@@ -67,8 +71,18 @@
         me to improve and adapt my style.</p>
 
         <h3>Static Previews</h3>
-        <img src="./images/detail/desktop/image-manage-preview-1@2x.jpg" class="preview-img">
-        <img src="./images/detail/desktop/image-manage-preview-2@2x.jpg" class="preview-img">
+        <picture>
+          <source media="(max-width: 767px)" src="./images/detail/mobile/image-manage-preview-1@2x.jpg">
+          <source media="(max-width: 1024px)" src="./images/detail/tablet/image-manage-preview-2@2x.jpg">
+          <img src="./images/detail/desktop/image-manage-preview-1@2x.jpg" class="preview-img">
+        </picture>
+
+        <picture>
+          <source>
+          <source>
+          <img src="./images/detail/desktop/image-manage-preview-2@2x.jpg" class="preview-img">
+        </picture>
+        
       </div>
       
     </div>
@@ -84,7 +98,7 @@
 
       <div class="center-line"></div>
       
-      <a href="./bookmark.html"><div class="page-btn">
+      <a href="./bookmark.html"><div class="page-btn next">
         <section class="nav-section">
           <h3>Bookmark</h3>
           <p>Next Project</p>

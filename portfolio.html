@@ -80,8 +80,12 @@
 
     <div class="container" id="insure">
       <div class="insure-container">
-        <picture></picture>
-        <img src="./images/portfolio/desktop/image-portfolio-insure@2x.jpg">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./images/portfolio/mobile/image-portfolio-insure@2x.jpg"> 
+          <source media="(max-width: 1024px)" srcset="./images/portfolio/tablet/image-portfolio-insure@2x.jpg">
+          <img src="./images/portfolio/desktop/image-portfolio-insure@2x.jpg" alt="screenshot of insure page" class="insure-img">
+        </picture>
+        
         <section class="insure-section">
           <h2>Insure</h2>
           <p>
@@ -105,7 +109,12 @@
           </p>
           <a href="./fylo.html"><button class="project-btn">View Project</button></a>
         </section>
-        <img src="./images/portfolio/desktop/image-portfolio-fylo@2x.jpg">
+        <picture>
+          <source media="(max-width: 767px)" src="./images/portfolio/mobile/image-portfolio-fylo@2x.jpg">
+          <source media="(max-width: 1024px)" src="./images/portfolio/tablet/image-portfolio-fylo@2x.jpg">
+          <img src="./images/portfolio/desktop/image-portfolio-fylo@2x.jpg" alt="screenshot of fylo page" class="fylo-img">
+        </picture>
+        
       </div>
     </div>
 
