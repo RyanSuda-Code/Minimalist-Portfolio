@@ -40,7 +40,12 @@
   <main>
     <div class="container" id="manage">
       <div class="manage-container">
-        <img src="./images/portfolio/desktop/image-portfolio-manage@2x.jpg">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./images/portfolio/mobile/image-portfolio-manage@2x.jpg">
+          <source media="(max-width: 1024px)" srcset="./images/portfolio/tablet/image-portfolio-manage@2x.jpg">
+          <img src="./images/portfolio/desktop/image-portfolio-manage@2x.jpg" alt="screenshot of manage webpage" class="manage-img">
+        </picture>
+        
         <section class="manage-section">
           <h2>Manage</h2>
           <p>
@@ -64,7 +69,12 @@
           </p>
           <a href="./bookmark.html"><button class="project-btn">View Project</button></a>
         </section>
-        <img src="./images/portfolio/desktop/image-portfolio-bookmark@2x.jpg">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./images/portfolio/mobile/image-portfolio-bookmark@2x.jpg">
+          <source media="(max-width: 1024px)" srcset="./images/portfolio/tablet/image-portfolio-bookmark@2x.jpg">
+          <img src="./images/portfolio/desktop/image-portfolio-bookmark@2x.jpg" alt="screenshot of bookmark page" class="bookmark-img">
+        </picture>
+        
       </div>
     </div>
 

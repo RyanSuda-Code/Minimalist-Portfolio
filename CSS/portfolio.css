@@ -37,3 +37,38 @@ section p {
 #fylo {
     justify-content: flex-end;
 }
+
+/*Media queries*/
+/*Mobile*/
+@media (max-width: 767px) {
+    .container img {
+        width: 340px;
+        height: 288px;
+        margin: 30px 0;
+    }
+
+    .container {
+        width: 340px;
+    }
+
+    .container div {
+        width: 340px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    div section {
+        width: 340px;
+        height: 368px;
+    }
+
+    #bookmark, #fylo {
+        justify-content: center;
+    }
+
+    .container .bookmark-container, .container .fylo-container { /*Need to be specific when targetting elements to override the previous declaration as CSS cares about selector strength and order. the more specific the selector i make the higher the priority.*/
+        flex-direction: column-reverse;
+    }
+
+}

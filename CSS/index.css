@@ -73,7 +73,7 @@
     }
 
     .container {
-        width: 340px;
+        width: 100%;
         display: block;
     }
 
@@ -86,7 +86,7 @@
     }
 
     .about-container {
-        width: 340px;
+        width: 100%;
         flex-direction: column;
         gap: 32px;
     }
@@ -96,7 +96,7 @@
     }
 
     .abt-section {
-        width: 340px;
+        width: 100%;
         height: 617px;
     }
 }
