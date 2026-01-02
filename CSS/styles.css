@@ -318,6 +318,10 @@ a {
         width: 340px;
     }
 
+    img[src$=".svg"] { /*this selects attributes that ends with the value of ".svg"*/
+        background-color: white;
+    }
+
     .nav-desktop {
         display: none;
     }
@@ -328,10 +332,26 @@ a {
         cursor: pointer;
     }
 
+    .close-icon {
+        display: none;
+    }
+
+    .hamburger.active .hamburger-icon {
+        display: none;
+    }
+
+    .hamburger.active .close-icon {
+        display: flex;
+    }
+
     .nav-mobile {
         width: 223px;
         height: 186px;
         background-color: #33323d;
+        position: absolute;
+        top: 64px;
+        right: 65px;
+        z-index: 1000;
         display: none;
     }
 
@@ -344,7 +364,18 @@ a {
 
     .nav-mobile a {
         color: white;
-        margin: 10px;
+    }
+
+    .nav-mobile ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-mobile li {
+        margin: 10px 0;
     }
 
     .contact-container {
