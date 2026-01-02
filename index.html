@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./CSS/styles.css">
   <link rel="stylesheet" href="./CSS/index.css"> <!-- Add Main Index CSS File Here -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <script src="./JavaScript/script.js" defer></script>
   <title>Frontend Mentor | Minimalist Portfolio</title>
 </head>
 <body>
@@ -29,10 +29,12 @@
 
   <!--Mobile nav-->
   <nav class="nav-mobile"> <!--JavaScript dynamically adds or removes the class .active  to represent whether the menu is open or closed. So no need to manually add it.-->
-      <a href="./index.html">Home</a>
-      <a href="./portfolio.html">Portfolio</a>
-      <a href="./contact.html">Contact Me</a>
-    </nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact Me</a> </li>
+    </ul> 
+  </nav>
 
   <main>
     <img src="./images/homepage/mobile/image-homepage-hero@2x.jpg" alt="mobile homepage image" class="mobile-img">
