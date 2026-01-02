@@ -411,12 +411,13 @@ a {
         align-items: center;
     }
 
-    .footer-links nav {
+    .footer-links ul {
         display: flex;
+        text-align: center;
         flex-direction: column;
     }
 
-    .footer-links a {
+    .footer-links li {
         margin: 10px 0;
     }
     
