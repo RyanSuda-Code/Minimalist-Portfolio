@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./CSS/styles.css">
   <link rel="stylesheet" href="./CSS/fylo.css"> <!-- Add Fylo Page CSS File Here -->
-
+  <script src="./JavaScript/script.js" defer></script><!-- defer = load JS in background, run it after HTML is ready -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo Project</title>
@@ -13,6 +13,7 @@
 <body>
   <header>
     <img src="./images/logo.svg" alt="Logo">
+      <!--desktop and tablet nav-->
     <nav class="nav-desktop">
       <ul>
         <li><a href="./index.html">Home</a></li>
@@ -20,10 +21,30 @@
         <li><a href="./contact.html">Contact Me</a> </li>
       </ul> 
     </nav>
+
+    <!--mobile hamburger-->
+    <button class="hamburger">
+      <img src="./images/icons/hamburger.svg" alt="mobile hamburger menu icon" class="hamburger-icon">
+      <img src="./images/icons/close.svg" alt="mobile close icon" class="close-icon">
+    </button>
   </header>
 
+  <!--Mobile nav-->
+  <nav class="nav-mobile"> <!--JavaScript dynamically adds or removes the class .active  to represent whether the menu is open or closed. So no need to manually add it.-->
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact Me</a> </li>
+    </ul> 
+  </nav>
+
   <main>
-    <img src="./images/detail/desktop/image-fylo-hero@2x.jpg" alt="preview image of fylo" class="fylo-img">
+    <picture>
+      <source media="(max-width: 767px)" srcset="./images/detail/mobile/image-fylo-hero@2x.jpg">
+      <source media="(max-width: 1024px)" srcset="./images/detail/tablet/image-fylo-hero@2x.jpg">
+      <img src="./images/detail/desktop/image-fylo-hero@2x.jpg" alt="preview image of fylo" class="fylo-img">
+    </picture>
+    
 
     <div class="content">
       <div class="fylo-container">
@@ -51,8 +72,16 @@
         me to improve and adapt my style.</p>
 
         <h3>Static Previews</h3>
-        <img src="./images/detail/desktop/image-fylo-preview-1@2x.jpg" class="preview-img">
-        <img src="./images/detail/desktop/image-fylo-preview-2@2x.jpg" class="preview-img">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./images/detail/mobile/image-fylo-preview-1@2x.jpg">
+          <source media="(max-width: 1024px)" srcset="./images/detail/tablet/image-fylo-preview-1@2x.jpg">
+          <img src="./images/detail/desktop/image-fylo-preview-1@2x.jpg" class="preview-img">
+        </picture>
+        <picture>
+          <source media="(max-width: 767px)" srcset="./images/detail/mobile/image-fylo-preview-2@2x.jpg">
+          <source media="(max-width: 1024px)" srcset="./images/detail/tablet/image-fylo-preview-2@2x.jpg">
+          <img src="./images/detail/desktop/image-fylo-preview-2@2x.jpg" class="preview-img">
+        </picture>
       </div>
     </div>
 
