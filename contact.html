@@ -6,12 +6,13 @@
   <link rel="stylesheet" href="./CSS/styles.css">
   <link rel="stylesheet" href="./CSS/contact.css"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script src="./JavaScript/script.js" defer></script><!-- defer = load JS in background, run it after HTML is ready -->
   <title>Frontend Mentor | Contact Me</title>
 </head>
 <body>
-  <header>
+   <header>
     <img src="./images/logo.svg" alt="Logo">
+      <!--desktop and tablet nav-->
     <nav class="nav-desktop">
       <ul>
         <li><a href="./index.html">Home</a></li>
@@ -19,7 +20,22 @@
         <li><a href="./contact.html">Contact Me</a> </li>
       </ul> 
     </nav>
+
+    <!--mobile hamburger-->
+    <button class="hamburger">
+      <img src="./images/icons/hamburger.svg" alt="mobile hamburger menu icon" class="hamburger-icon">
+      <img src="./images/icons/close.svg" alt="mobile close icon" class="close-icon">
+    </button>
   </header>
+
+  <!--Mobile nav-->
+  <nav class="nav-mobile"> <!--JavaScript dynamically adds or removes the class .active  to represent whether the menu is open or closed. So no need to manually add it.-->
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact Me</a> </li>
+    </ul> 
+  </nav>
 
   <main>
     <div class="contact">

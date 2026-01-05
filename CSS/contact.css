@@ -81,3 +81,22 @@ label {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+/*media query*/
+/*mobile*/
+@media (max-width: 767px) {
+    .contact, .contact-form {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .title, .content, .form-title, .form-container {
+        width: 340px;
+        padding: 10px;
+    }
+
+    label, input, textarea, fieldset  {
+        width: 340px;
+    }
+}
