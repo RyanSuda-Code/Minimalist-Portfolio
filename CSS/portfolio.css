@@ -30,11 +30,7 @@ section p {
     height: 500px; 
 }
 
-#bookmark {
-    justify-content: flex-end;
-}
-
-#fylo {
+#bookmark, #fylo {
     justify-content: flex-end;
 }
 
@@ -71,4 +67,25 @@ section p {
         flex-direction: column-reverse;
     }
 
+}
+
+/*tablet*/
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container img {
+        width: 340px;
+        height: 314px;
+    }
+
+    .container {
+        width: 700px;
+    }
+
+    .container div {
+        width: 700px;
+    }
+
+    div section {
+        width: 290px;
+        height: 418px;
+    }
 }
