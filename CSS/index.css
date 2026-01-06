@@ -100,3 +100,50 @@
         height: 617px;
     }
 }
+
+/*tablet*/
+@media (max-width: 1024px) {
+    .hero-container {
+        max-width: 700px;
+        height: 600px;
+        background: url(../images/homepage/tablet/image-homepage-hero@2x.jpg) no-repeat center center/cover;
+    }
+
+    .container {
+        width: 515px;
+        height: 278px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .abt-btn {
+        top: 230px;
+    }
+
+    #about {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #about img {
+        width: 340px;
+    }
+
+    .abt-section {
+        width: 100%;
+        height: 617px;
+    }
+}
