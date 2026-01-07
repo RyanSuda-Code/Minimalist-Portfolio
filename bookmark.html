@@ -40,25 +40,36 @@
   
   <main>
     <picture>
-      <source media="(max-width: 767px)" src="./images/detail/mobile/image-bookmark-hero@2x.jpg">
-      <source media="(max-width: 1024px)" src="./images/detail/tablet/image-bookmark-hero@2x.jpg">
+      <source media="(max-width: 767px)" srcset="./images/detail/mobile/image-bookmark-hero@2x.jpg">
+      <source media="(max-width: 1024px)" srcset="./images/detail/tablet/image-bookmark-hero@2x.jpg">
       <img src="./images/detail/desktop/image-bookmark-hero@2x.jpg" class="bookmark-img" alt="preview image of the website bookmark">
     </picture>
     
 
     <div class="content">
       <div class="bookmark-container">
-        <h2>Bookmark</h2>
+        <div class="description">
+          <h2>Bookmark</h2>
 
-        <p>This project required me to build a fully responsive landing page to the designs 
-        provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
-        required interactivity, such as the features section.</p>
+          <p class="desktop-description">This project required me to build a fully responsive landing page to the designs 
+          provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
+          required interactivity, such as the features section.</p>
 
-        <span>Interaction Design / Front End Development</span>
+          <span>Interaction Design / Front End Development</span>
 
-        <span>HTML / CSS / JS</span>
+          <span>HTML / CSS / JS</span>
 
-        <button class="visit-btn">Visit Website</button>
+          <button class="visit-btn">Visit Website</button>
+        </div>
+
+        <div class="tablet-description">
+          <p>
+            his project required me to build a fully responsive landing page to the designs 
+            provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
+            required interactivity, such as the features section.
+          </p>
+        </div>
+        
       </div>
 
       <div class="background-container">
