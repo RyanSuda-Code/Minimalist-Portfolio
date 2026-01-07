@@ -100,3 +100,21 @@ label {
         width: 340px;
     }
 }
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contact, .contact-form {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .title, .content, .form-title, .form-container {
+        width: 720px;
+        padding: 10px;
+    }
+
+    label, input, textarea, fieldset  {
+        width: 720px;
+    }
+}
