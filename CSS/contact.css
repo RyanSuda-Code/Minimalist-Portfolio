@@ -86,7 +86,7 @@ label {
 /*mobile*/
 @media (max-width: 767px) {
     .contact, .contact-form {
-        width: 100%;
+        width: 340px;
         height: auto;
         flex-direction: column;
     }
@@ -102,9 +102,9 @@ label {
 }
 
 /*tablet*/
-@media (min-width: 768px) and (max-width: 1020px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .contact, .contact-form {
-        width: 100%;
+        width: 720px;
         height: auto;
         flex-direction: column;
     }
