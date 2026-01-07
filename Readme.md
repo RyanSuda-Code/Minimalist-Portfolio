@@ -30,7 +30,7 @@ JavaScript allows the menu to stay open or closed after a click
 How It Works (Step by Step)
 1. Selecting Elements
 js
-Copy code
+
 document.querySelector(".hamburger");
 document.querySelector(".nav-mobile");
 querySelector() selects elements from the DOM using CSS selectors
@@ -43,7 +43,7 @@ a target element (mobile navigation menu)
 
 2. Listening for User Interaction
 js
-Copy code
+
 hamburger.addEventListener("click", ...)
 JavaScript is event-driven
 
@@ -53,7 +53,7 @@ Improves performance and control
 
 3. Toggling Menu State
 js
-Copy code
+
 mobileNav.classList.toggle("active");
 toggle():
 
@@ -76,7 +76,7 @@ Instead, it adds or removes a class, and CSS reacts to that class.
 Example:
 
 css
-Copy code
+
 .nav-mobile {
   display: none;
 }
