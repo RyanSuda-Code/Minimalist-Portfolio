@@ -109,6 +109,10 @@ label {
         flex-direction: column;
     }
 
+    .socials {
+        margin-bottom: 20px;
+    }
+
     .title, .content, .form-title, .form-container {
         width: 720px;
         padding: 10px;
