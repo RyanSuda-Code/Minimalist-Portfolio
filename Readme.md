@@ -1,13 +1,50 @@
-# Mobile Hamburger Menu – JavaScript Notes
+# Frontend Mentor - Minimalist portfolio
 
 ## Overview
 This JavaScript controls the **open and close behavior** of a mobile navigation menu using a hamburger button.
 
 JavaScript is responsible for **interaction and state**, while CSS handles layout and styling.
 
----
+### The challenge
 
-## JavaScript Code
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Screenshot
+
+Desktop Version
+![](./images/screenshots/DScreenshot%202026-01-08%20180500.png)
+![](./images/screenshots/DScreenshot%202026-01-08%20180519.png)
+![](./images/screenshots/DScreenshot%202026-01-08%20180532.png)
+![](./images/screenshots/DScreenshot%202026-01-08%20180541.png)
+
+
+Tablet Version
+![](./images/screenshots/TScreenshot%202026-01-08%20180947.png)
+![](./images/screenshots/TScreenshot%202026-01-08%20181001.png)
+![](./images/screenshots/TScreenshot%202026-01-08%20181022.png)
+
+Mobile Version
+![](./images/screenshots/Screenshot%202026-01-08%20181241.png)
+![](./images/screenshots/Screenshot%202026-01-08%20181255.png)
+![](./images/screenshots/Screenshot%202026-01-08%20181305.png)
+
+### Links
+
+- Live Site URL: [Live URL](https://ryansuda-code.github.io/Minimalist-Portfolio/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+
+### What I learned
+
+## JavaScript Code snippet
 
 ```js
 const hamburger = document.querySelector(".hamburger");
@@ -16,7 +53,7 @@ const mobileNav = document.querySelector(".nav-mobile");
 hamburger.addEventListener("click", () => {
   mobileNav.classList.toggle("active");
 });
-
+```
 
 Why JavaScript Is Needed
 HTML provides structure only
@@ -26,47 +63,6 @@ CSS provides styling only
 Neither can track interaction state
 
 JavaScript allows the menu to stay open or closed after a click
-
-How It Works (Step by Step)
-1. Selecting Elements
-js
-
-document.querySelector(".hamburger");
-document.querySelector(".nav-mobile");
-querySelector() selects elements from the DOM using CSS selectors
-
-JavaScript needs:
-
-a trigger element (hamburger button)
-
-a target element (mobile navigation menu)
-
-2. Listening for User Interaction
-js
-
-hamburger.addEventListener("click", ...)
-JavaScript is event-driven
-
-The code runs only when the user clicks
-
-Improves performance and control
-
-3. Toggling Menu State
-js
-
-mobileNav.classList.toggle("active");
-toggle():
-
-adds the class if it doesn’t exist
-
-removes it if it already exists
-
-One line handles both:
-
-opening the menu
-
-closing the menu
-
 
 Relationship Between JavaScript and CSS
 JavaScript does not change styles directly.
@@ -84,6 +80,7 @@ css
 .nav-mobile.active {
   display: block;
 }
+
 Why .active Is Used Instead of :active
 :active only applies while clicking
 
@@ -100,15 +97,6 @@ JavaScript → behavior and state
 
 JavaScript changes the class
 CSS decides what that class means visually
-
-Why This Pattern Is Common
-Clean separation of concerns
-
-Easy to maintain and scale
-
-Easy to animate later
-
-Standard practice in production code
 
 ###
 
@@ -132,12 +120,11 @@ Standard practice in production code
    2. JavaScript detects the click event
    3. JavaScript toggles a class on the mobile nav
    4. CSS reacts to that class and updates visibility
-===================================================== 
-
+  ===================================================== 
 
  -----------------------------------------------------
    1. Select required elements from the DOM
------------------------------------------------------ 
+ ----------------------------------------------------- 
 
  Select the hamburger button (user interaction trigger)
  const hamburger = document.querySelector(".hamburger");
@@ -148,15 +135,15 @@ Standard practice in production code
 
  -----------------------------------------------------
    2. Add click event listener to the hamburger
------------------------------------------------------ 
+ ----------------------------------------------------- 
 
  JavaScript is event-driven.
  Nothing happens until the user clicks the hamburger.
  hamburger.addEventListener("click", () => {
 
-   ---------------------------------------------------
-     3. Toggle menu state using a CSS class
-  --------------------------------------------------- 
+ ---------------------------------------------------
+  3. Toggle menu state using a CSS class
+ --------------------------------------------------- 
 
    classList.toggle():
    - Adds 'active' if it does NOT exist
@@ -178,10 +165,13 @@ Standard practice in production code
    - It is NOT the same as the CSS ':active' pseudo-class
    - ':active' only works while clicking
    - '.active' persists after the click ends
-
-   WHY THIS PATTERN IS USED:
-   - Clean separation of concerns
-   - Easy to maintain
-   - Easy to animate later
-   - Common in production and interviews
 ----------------------------------------------------- 
+
+## Author
+
+- Website - [Ryan Suda](https://github.com/RyanSuda-Code)
+
+
+
+
+
